@@ -57,7 +57,7 @@ def get_user_input():
                 input()
                 clrscr()
                 continue
-        except:
+        except ValueError:
             clrscr()
             print('Enter "1" for ROCK, "2" for PAPER, and "3" for SCISSORS.')
             print('Press enter to continue...')
